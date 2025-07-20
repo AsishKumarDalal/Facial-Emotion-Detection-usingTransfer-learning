@@ -77,8 +77,12 @@ faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.03, minNeighbors=8
 
 ### 🖼️ Predicted Faces
 
-| Detected Faces | Predicted Emotion |
-| -------------- | ----------------- |
+### Detected Faces
+
+### Test_dataset
 
 | ![face1](images/images_mouth.png)
+
+### Image Downloaded From internet
+
 | ![face2](images/test_images.jpg)
