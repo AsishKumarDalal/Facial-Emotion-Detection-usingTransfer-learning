@@ -52,9 +52,10 @@ datagen = ImageDataGenerator(
 ```
 
 
-📁 Dataset
+📁 Dataset:
 We used the CK+ (Cohn-Kanade) dataset for training. The dataset is assumed to be structured like this:
 
+```python
 ck-dataset/
 ├── angry/
 ├── happy/
@@ -62,8 +63,11 @@ ck-dataset/
 ├── surprise/
 ├── ...   and other total 7 classes
 This Dataset Has a Total of 982 images we used a total of 788 images for Training and 193 images for validation.
+```
+🔍 Real-Time Face Emotion Prediction:
 
-🔍 Real-Time Face Emotion Prediction
 We used Haar Cascade to detect faces from a new image:
+```python
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.03, minNeighbors=8)
+```
