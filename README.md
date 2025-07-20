@@ -17,7 +17,7 @@ This project demonstrates a complete pipeline to perform **emotion classificatio
 
 ## 🧠 What is Transfer Learning?
 
-**Transfer Learning** allows you to use a pre-trained model (like MobileNet trained on ImageNet) and adapt it to your own dataset. Instead of training from scratch, we reuse the knowledge already learned by the model to save time and improve accuracy—especially helpful when your dataset is small.
+**Transfer Learning** allows  to use a pre-trained model (like MobileNet trained on ImageNet) and adapt it to our own dataset. Instead of training from scratch, we reuse the knowledge already learned by the model to save time and improve accuracy—especially helpful when our dataset is small.
 
 In this project:
 
